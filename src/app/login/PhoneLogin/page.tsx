@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 
 const PhoneLogin = () => {
   const setPhoneNum = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -31,7 +31,7 @@ const PhoneLogin = () => {
         </span>
       </div>
       <div className=" ">
-        <Link href="/login/PhoneLogin/VerifyOTP">
+        {/* <Link href="/login/PhoneLogin/VerifyOTP"> */}
           <button
             className="login-element-size login-button voilet-bgd white-text"
             type="submit"
@@ -39,7 +39,7 @@ const PhoneLogin = () => {
           >
             Send OTP
           </button>
-        </Link>
+        {/* </Link> */}
       </div>
     </div>
   );
