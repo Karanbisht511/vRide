@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 // const VerifyOTPPage = ({ phoneNo }: number) => {
 //   return (
@@ -10,4 +10,14 @@
 //   );
 // };
 
-// export default VerifyOTPPage;
+const VerifyOTPPage = () => {
+  return (
+    <div>
+      <div className="welcome-text">Verify with OTP</div>
+      <div>We have send you the OTP via SMS to 000 </div>
+      
+    </div>
+  );
+};
+
+export default VerifyOTPPage;

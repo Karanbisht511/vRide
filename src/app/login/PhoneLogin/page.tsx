@@ -35,7 +35,7 @@ const PhoneLogin = () => {
           <button
             className="login-element-size login-button voilet-bgd white-text"
             type="submit"
-            onClick={setPhoneNum}
+            // onClick={setPhoneNum}
           >
             Send OTP
           </button>
