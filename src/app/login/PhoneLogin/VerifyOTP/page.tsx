@@ -10,7 +10,7 @@ import React from "react";
 //   );
 // };
 
-const VerifyOTPPage = () => {
+export const VerifyOTPPage = () => {
   return (
     <div>
       <div className="welcome-text">Verify with OTP</div>
@@ -20,4 +20,4 @@ const VerifyOTPPage = () => {
   );
 };
 
-export default VerifyOTPPage;
+// export default VerifyOTPPage;
