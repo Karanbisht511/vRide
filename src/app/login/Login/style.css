@@ -1,0 +1,11 @@
+.login-form-inputs {
+  border: 0.5px solid grey;
+}
+
+.login-element-size{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 30px;
+    width: 50%;
+    height: 50px;
+}

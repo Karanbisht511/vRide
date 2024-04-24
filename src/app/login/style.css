@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.voilet-bgd{
+  background: linear-gradient(180deg, #57009b 24%, #1e0035 100%);
+}
+
+.borderLine {
+  border: 1px solid wheat;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 5%;
+}
+
+.left-background {
+  /* background: linear-gradient(180deg, #57009b 24%, #1e0035 100%); */
+  margin: 5px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.white-text {
+  color: white;
+}
+
+.text-left {
+  font-family: Inter;
+}
+
+.quote-text{
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.des-text{
+  font-size: 1rem;
+}
+
+.welcome-text{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.cartoon-boy {
+  position: relative;
+  bottom: 10%;
+  right: -40%;
+}
+

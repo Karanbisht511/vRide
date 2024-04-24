@@ -1,0 +1,15 @@
+.login-buttons-wrap{
+    margin-top: 40px;
+}
+
+.login-button {
+  margin: 10px;
+  width: 440px;
+  height: 40px;
+  opacity: 0px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background: linear-gradient(180deg, #57009B 24%, #1E0035 100%);
+}
+
+
