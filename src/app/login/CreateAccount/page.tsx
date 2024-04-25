@@ -2,7 +2,7 @@ import React, { ReactHTML } from "react";
 import "../Login/style.css";
 import Link from "next/link";
 
-export const CreateAccount = ():any => {
+export const CreateAccount:React.FC = () => {
   return (
     <div>
       <div>

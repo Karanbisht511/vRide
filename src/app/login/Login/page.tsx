@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Link from "next/link";
 
-export const Login = () => {
+export const Login:React.FC = () => {
   return (
     <>
       <div>Enter your email and password to access your account</div>

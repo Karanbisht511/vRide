@@ -10,7 +10,7 @@ import React from "react";
 //   );
 // };
 
-export const VerifyOTPPage = () => {
+export const VerifyOTPPage:React.FC = () => {
   return (
     <div>
       <div className="welcome-text">Verify with OTP</div>

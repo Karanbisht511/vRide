@@ -1,6 +1,6 @@
 import React from "react";
 
-const layout = ({ children }: any) => {
+const layout:React.FC  = ({ children }: any) => {
   return (
     <div className="container">
       <div className="welcome-text">Create Your Account</div>

@@ -6,7 +6,7 @@ import Image from "next/image";
 import i from "../../../assets/cartoon-teenage-boy.svg";
 import { Pathname } from "./PathName";
 
-export const layout = ({ children }: any) => {
+export const layout:React.FC  = ({ children }: any) => {
   return (
     <div className="flex flex-row borderLine overflow-x-hidden overflow-y-hidden">
       <div className="basis-2/5 voilet-bgd left-background white-text text-left">

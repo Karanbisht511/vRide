@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 // import Link from "next/link";
 
-export const PhoneLogin = () => {
+export const PhoneLogin:React.FC = () => {
   const setPhoneNum = (event: React.ChangeEvent<HTMLInputElement>) => {
     
     const phoneNo = event
