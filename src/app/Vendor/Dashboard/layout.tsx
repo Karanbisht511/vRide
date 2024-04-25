@@ -2,6 +2,10 @@ import React from 'react'
 
 export const layout = ({ children }: any) => {
   return (
-    <div>layout</div>
+    <div>layout
+      <div>
+        {children}
+      </div>
+    </div>
   )
 }
