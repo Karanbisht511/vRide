@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import Login from "base/app/login/page";
 import { useRouter } from "next/navigation";
 
-const Home = () => {
+export const Page = () => {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const router = useRouter();
@@ -14,4 +14,4 @@ const Home = () => {
   router.push("/login");
 };
 
-export default Home;
+// export default Page;

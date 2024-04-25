@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Link from "next/link";
 
-const Login = () => {
+export const Login = () => {
   return (
     <>
       <div>Enter your email and password to access your account</div>
@@ -51,4 +51,3 @@ const Login = () => {
   );
 };
 
-export default Login;

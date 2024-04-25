@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Dashboard = () => {
+export const Dashboard = () => {
   return (
 //leftside
     // BrandName
@@ -12,5 +12,3 @@ const Dashboard = () => {
     <div></div>
   )
 }
-
-export default Dashboard

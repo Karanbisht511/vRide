@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 // import Link from "next/link";
 
-const PhoneLogin = () => {
+export const PhoneLogin = () => {
   const setPhoneNum = (event: React.ChangeEvent<HTMLInputElement>) => {
     
     const phoneNo = event
@@ -44,5 +44,3 @@ const PhoneLogin = () => {
     </div>
   );
 };
-
-export default PhoneLogin;

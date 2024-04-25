@@ -1,8 +1,8 @@
-import React from "react";
+import React, { ReactHTML } from "react";
 import "../Login/style.css";
 import Link from "next/link";
 
-const CreateAccount = () => {
+export const CreateAccount = ():any => {
   return (
     <div>
       <div>
@@ -47,7 +47,7 @@ const CreateAccount = () => {
           I have read the account <a href="">terms and conditions</a>
         </span>
       </div>
-      <div className=" ">
+      <div>
         <button
           className="login-element-size login-button voilet-bgd white-text"
           type="submit"
@@ -63,5 +63,3 @@ const CreateAccount = () => {
     </div>
   );
 };
-
-export default CreateAccount;
